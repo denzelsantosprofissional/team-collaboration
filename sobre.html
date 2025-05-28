@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Direitos Humanos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Direitos <span>Humanos</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="aprender.html">Aprender</a></li>
+                    <li><a href="agir.html">Agir</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 60vh;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Sobre Nós</h1>
+                <p class="hero-subtitle">Conheça a equipe por trás deste projeto e nossas fontes de informação</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Quem Somos</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/images/team-photo.jpg" alt="Foto da Turma 194 EPAD">
+                </div>
+                <div class="about-text">
+                    <p>Somos a Turma 194 da Escola Profissional de Artes, Tecnologias e Desporto (EPAD), actualmente inscritos no curso de Programador de Informática e o nosso grupo é composto por 24 alunos.</p>
+                    <p>Através das aulas teóricas e práticas da EPAD, adquirimos competências em linguagens de programação, desenvolvimento de software, bases de dados e gestão de projetos, ferramentas que valorizamos como meio de criar soluções que impactem positivamente a sociedade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Useful Links Section -->
+    <section class="links-section section" style="background-color: var(--fundo-bege);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ligações Úteis</h2>
+            </div>
+            <div class="links-grid">
+                <div class="link-card animate-on-scroll">
+                    <h4>ONU - Organização das Nações Unidas</h4>
+                    <p>A organização responsável por criar a Declaração Universal dos Direitos Humanos e tentar garantir que os países a respeitem.</p>
+                    <a href="https://www.un.org/pt/" class="btn" target="_blank">Visitar</a>
+                </div>
+                
+                <div class="link-card animate-on-scroll">
+                    <h4>UNHRC - Conselho de Direitos Humanos das Nações Unidas</h4>
+                    <p>O Conselho de Direitos Humanos das Nações Unidas investiga abusos pelo mundo e faz recomendações aos governos.</p>
+                    <a href="https://www.ohchr.org/en/hrbodies/hrc/home" class="btn" target="_blank">Visitar</a>
+                </div>
+                
+                <div class="link-card animate-on-scroll">
+                    <h4>UNICEF - Fundo das Nações Unidas para a Infância</h4>
+                    <p>A UNICEF luta pelos direitos das crianças, especialmente em zonas de guerra ou pobreza, garantindo que tenham educação, saúde e proteção.</p>
+                    <a href="https://www.unicef.org/portugal" class="btn" target="_blank">Visitar</a>
+                </div>
+                
+                <div class="link-card animate-on-scroll">
+                    <h4>UNESCO - Organização das Nações Unidas para a Educação, Ciência e Cultura</h4>
+                    <p>A UNESCO preocupa-se com o direito à educação e à cultura, e também protege patrimónios culturais pelo mundo.</p>
+                    <a href="https://en.unesco.org/" class="btn" target="_blank">Visitar</a>
+                </div>
+                
+                <div class="link-card animate-on-scroll">
+                    <h4>ACNUR - Alto Comissariado das Nações Unidas para os Refugiados</h4>
+                    <p>O ACNUR ajuda refugiados. Garante que tenham abrigo, proteção e que os seus direitos sejam respeitados.</p>
+                    <a href="https://www.unhcr.org/countries/portugal" class="btn" target="_blank">Visitar</a>
+                </div>
+                
+                <div class="link-card animate-on-scroll">
+                    <h4>AI - Amnistia Internacional</h4>
+                    <p>A Amnistia Internacional investiga casos de injustiça, como tortura ou prisões políticas, e pressiona os governos para mudarem.</p>
+                    <a href="https://www.amnistia.pt" class="btn" target="_blank">Visitar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contato" class="contact-section section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contactos</h2>
+            </div>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p>Para entrar em contato conosco, utilize o formulário ao lado ou envie um e-mail diretamente para:</p>
+                    <p><a href="mailto:direitoshumanos194@gmail.com">direitoshumanos194@gmail.com</a></p>
+                    <p>Agradecemos seu interesse em nosso projeto sobre Direitos Humanos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Direitos Humanos</h3>
+                    <p>Um projeto desenvolvido pela Turma 194 da EPAD para promover a conscientização sobre os direitos humanos.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="aprender.html">Aprender</a></li>
+                        <li><a href="agir.html">Agir</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:direitoshumanos194@gmail.com">direitoshumanos194@gmail.com</a></li>
+                        <li><a href="sobre.html#contato">Formulário de Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Direitos Humanos | Turma 194 EPAD</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
